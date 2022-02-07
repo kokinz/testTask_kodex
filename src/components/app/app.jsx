@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from '../header/header';
+import Main from '../main/main';
+import SortSection from '../sections/sort-section/sort-section';
+import './app.scss';
 
 function App() {
   return (
     <>
-      <Header />
+      <SortSection />
+      <Main />
     </>
   );
 }
