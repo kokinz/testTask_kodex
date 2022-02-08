@@ -14,21 +14,3 @@
   margin: 0;
   margin-right: 30px;
 }
-
-.sort__button {
-  padding: 0 10px;
-
-  cursor: pointer;
-  background-color: transparent;
-  border: 1px solid teal;
-  border-radius: 5px;
-
-  &:hover {
-    background-color: rgba(0, 128, 128, 0.3);
-  }
-
-  &:active {
-    background-color: transparent;
-    box-shadow: 0 0 10px teal;
-  }
-}
