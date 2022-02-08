@@ -11,7 +11,7 @@ const otherAdd = (string, otherData) => {
     otherData[index].count = otherData[index].count + 1;
     otherData[index].date = Date.now();
 
-    return otherData;
+    return [...otherData];
   }
 
   return [...otherData, {value: string, count: 1, date: Date.now()}];

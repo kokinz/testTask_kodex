@@ -11,7 +11,7 @@ const symbolsAdd = (string, symbolsData) => {
     symbolsData[index].count = symbolsData[index].count + 1;
     symbolsData[index].date = Date.now();
 
-    return symbolsData;
+    return [...symbolsData];
   }
 
   return [...symbolsData, {value: string, count: 1, date: Date.now()}];

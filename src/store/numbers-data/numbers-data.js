@@ -11,7 +11,7 @@ const numbersAdd = (string, numbersData) => {
     numbersData[index].count = numbersData[index].count + 1;
     numbersData[index].date = Date.now();
 
-    return numbersData;
+    return [...numbersData];
   }
 
   return [...numbersData, {value: string, count: 1, date: Date.now()}];
