@@ -31,7 +31,8 @@ function InputSection({onSymbolsAdd, onNumbersAdd, onOtherAdd}) {
 
   return (
     <section className='input-section section'>
-      <form className='form' action='' onSubmit={handleSubmit}>
+      <h2 className='visually-hidden'>Ввод</h2>
+      <form className='form' action='https://echo.htmlacademy.ru/' onSubmit={handleSubmit}>
         <input className='input' type='text' value={value} onChange={handleInputChange} required />
         <button className='button'>Ввод</button>
       </form>
